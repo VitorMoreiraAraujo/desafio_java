@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner leitura = new Scanner(System.in);
         int acao = 0;
-        float saldoAdicional = 0;
-        float saldoRetirado = 0;
+        float saldoAdicional;
+        float saldoRetirado;
         float saldo = 3000;
         System.out.println("""
                 ****************************************************
